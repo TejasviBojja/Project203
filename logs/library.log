@@ -2135,3 +2135,29 @@ INFO  [2014-04-23 01:16:07,444] com.yammer.dropwizard.config.Environment: tasks 
 INFO  [2014-04-23 01:16:08,118] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
 WARN  [2014-04-23 01:16:08,121] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
 INFO  [2014-04-23 01:16:08,122] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-23 01:49:02,429] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-23 01:49:02,602] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-23 01:49:02,606] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-23 01:49:02,897] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-23 01:49:03,051] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+
+INFO  [2014-04-23 01:49:03,052] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-23 01:49:03,763] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-23 01:49:03,767] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
