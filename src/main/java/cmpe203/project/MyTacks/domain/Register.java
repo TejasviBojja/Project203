@@ -4,10 +4,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Register {
 	
-	@JsonProperty("firstName")
+	@JsonProperty("firstname")
 	private String firstName;
 	
-	@JsonProperty("lastName")
+	@JsonProperty("lastname")
 	private String lastName;
 	
 	@JsonProperty("email")
