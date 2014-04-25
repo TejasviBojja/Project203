@@ -37,7 +37,7 @@ public class Email {
 		});
 		session.setDebug(true);
 		
-		String msgBody="Dear "+ firstname +", Welcome to MyTacks !!! Enjoy :) :D ;)";
+		String msgBody="Dear "+ firstname +",\n\n Welcome to MyTacks !!! \n Thank you for joining MyTacks..Click the below link to activate your account:\n http://localhost:8080/MyTacks/activate?activationlink="+firstname+"\n\n Happy Pinning !! ]";
 		try
 		{
 			

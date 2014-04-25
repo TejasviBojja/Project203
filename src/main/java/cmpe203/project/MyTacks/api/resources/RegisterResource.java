@@ -30,7 +30,7 @@ public RegisterView getRegister()
 
 public Response verifySignup(@FormParam("firstname") String firstname, @FormParam("lastname") String lastname,@FormParam("email") String email,@FormParam("sex") String sex,@FormParam("password") String password,@FormParam("cpassword") String cpassword) throws URISyntaxException
 {
-	URI uri =new URI("http://localhost:8080/MyTacks/signup");
+	URI uri =new URI("http://localhost:8080/MyTacks/verifyEmail");
 	//System.out.print("firstname"+firstname);
 	Email e=new Email();
 	e.sendEmail(email,firstname);
