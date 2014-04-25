@@ -2,6 +2,7 @@ package cmpe203.project.MyTacks;
 
 import cmpe203.project.MyTacks.api.resources.HomeResource;
 import cmpe203.project.MyTacks.api.resources.RegisterResource;
+import cmpe203.project.MyTacks.api.resources.ResetPasswordResource;
 import cmpe203.project.MyTacks.api.resources.SignupResource;
 import cmpe203.project.MyTacks.config.mytacksServiceConfiguration;
 import cmpe203.project.MyTacks.views.RegisterView;
@@ -31,6 +32,7 @@ public class mytacksService extends Service<mytacksServiceConfiguration> {
 	environment.addResource(SignupResource.class);
 	environment.addResource(RegisterResource.class);
 	environment.addResource(HomeResource.class);
+	environment.addResource(ResetPasswordResource.class);
 	}
 
 }

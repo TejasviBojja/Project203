@@ -10,7 +10,7 @@
 		{
  			if(document.forms.Registerform.password.value==null||document.forms.Registerform.password.value=="")
  			{
-  				alert('Passwords do not match');
+  				alert('Passwords cannot be blank');
   				return false;
  			}
  		return true;
@@ -54,8 +54,12 @@
 		
 </script>
 </head>
-<body  background="C:\Users\deepthi\Desktop\Desktop.jpg">
-</body>
+<style type="text/css" >
+body
+{
+background:url(http://i.images.cdn.fotopedia.com/f99mkad2ks77v-YUeOYrzK5hI-hd/Bridges/Wooden_bridge_in_a_park.jpg) no-repeat ;
+}
+</style>
 <form id="Registerform" action="" onsubmit="return( validateFirstname()&& validateLastname() && validateEmail() && validatePassword()  && validateCpassword())" method="post" >
 <div style="width:500px;border:5px solid black; margin:0 auto;" >
 <h3 align="center" style="font-family:lucida calligraphy;font-size:30px;color:black">Sign Up With Email</h3>

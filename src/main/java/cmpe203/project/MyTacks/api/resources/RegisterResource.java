@@ -9,6 +9,7 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
+import cmpe203.project.MyTacks.domain.Email;
 import cmpe203.project.MyTacks.views.RegisterView;
 
 @Path("/register")
@@ -31,6 +32,8 @@ public Response verifySignup(@FormParam("firstname") String firstname, @FormPara
 {
 	URI uri =new URI("http://localhost:8080/MyTacks/signup");
 	//System.out.print("firstname"+firstname);
+	Email e=new Email();
+	e.sendEmail(email,firstname);
 	return Response.seeOther(uri).build();
 }
 }

@@ -1581,3 +1581,1462 @@ INFO  [2014-04-24 11:08:59,094] com.yammer.dropwizard.config.Environment: tasks 
 
 INFO  [2014-04-24 11:08:59,775] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
 INFO  [2014-04-24 11:08:59,778] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 01:16:26,078] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 01:16:26,267] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 01:16:26,272] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 01:16:26,478] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 01:16:26,612] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 01:16:26,613] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 01:16:27,297] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 01:16:27,300] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 01:43:08,782] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 01:43:08,978] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 01:43:08,983] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 01:43:09,205] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 01:43:09,343] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 01:43:09,344] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 01:43:10,031] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 01:43:10,035] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 01:43:10,036] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 01:44:08,772] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 01:44:08,945] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 01:44:08,949] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 01:44:09,184] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 01:44:09,338] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 01:44:09,338] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 01:44:10,073] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 01:44:10,076] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 01:44:10,076] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 01:56:23,825] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 01:56:24,025] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 01:56:24,030] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 01:56:24,265] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 01:56:24,411] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 01:56:24,411] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 01:56:25,112] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 01:56:25,116] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 01:58:12,259] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 01:58:12,452] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 01:58:12,456] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 01:58:12,674] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 01:58:12,816] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 01:58:12,816] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 01:58:13,569] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 01:58:13,574] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 01:58:49,008] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 01:58:49,197] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 01:58:49,202] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 01:58:49,433] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 01:58:49,576] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 01:58:49,576] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 01:58:50,294] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 01:58:50,298] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 01:59:23,007] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 01:59:23,191] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 01:59:23,197] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 01:59:23,422] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 01:59:23,574] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 01:59:23,575] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 01:59:24,279] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 01:59:24,283] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 01:59:48,838] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 01:59:49,009] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 01:59:49,013] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 01:59:49,228] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 01:59:49,364] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 01:59:49,364] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 01:59:50,103] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 01:59:50,110] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:00:35,405] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:00:35,594] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:00:35,599] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:00:35,828] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:00:35,969] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:00:35,969] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:00:36,762] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 02:00:36,765] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 02:00:36,766] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:00:58,896] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:00:59,074] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:00:59,078] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:00:59,293] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:00:59,435] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:00:59,435] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:01:00,135] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 02:01:00,139] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 02:01:00,140] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:02:14,510] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:02:14,694] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:02:14,699] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:02:14,916] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:02:15,063] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:02:15,063] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:02:15,773] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 02:02:15,777] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 02:02:15,777] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:07:42,313] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:07:42,482] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:07:42,487] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:07:42,692] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:07:42,830] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:07:42,830] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:07:43,500] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 02:07:43,503] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:09:28,183] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:09:28,354] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:09:28,358] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:09:28,563] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:09:28,695] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:09:28,695] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:09:29,359] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 02:09:29,362] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 02:09:29,363] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:10:57,525] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:10:57,707] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:10:57,711] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:10:57,929] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:10:58,072] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:10:58,072] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:10:58,799] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 02:10:58,803] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:12:44,679] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:12:44,881] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:12:44,886] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:12:45,124] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:12:45,328] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:12:45,328] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:12:46,046] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 02:12:46,050] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:13:15,295] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:13:15,473] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:13:15,478] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:13:15,692] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:13:15,838] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:13:15,838] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:13:16,500] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 02:13:16,503] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:14:48,301] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:14:48,494] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:14:48,499] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:14:48,712] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:14:48,845] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:14:48,845] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:14:49,611] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 02:14:49,693] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:32:19,429] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:32:19,611] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:32:19,617] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:32:19,841] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:32:20,073] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:32:20,073] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:32:20,892] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 02:32:20,897] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 02:32:20,897] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:33:28,815] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:33:28,984] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:33:28,989] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:33:29,197] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:33:29,347] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:33:29,347] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:33:30,075] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 02:33:30,078] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:34:23,781] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:34:23,949] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:34:23,953] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:34:24,160] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:34:24,292] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:34:24,293] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:34:24,973] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 02:34:24,976] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 02:34:24,976] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:37:55,931] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:37:56,099] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:37:56,103] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:37:56,304] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:37:56,434] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:37:56,435] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:37:57,089] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 02:37:57,093] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 02:37:57,093] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:39:59,409] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:39:59,608] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:39:59,613] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:39:59,877] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:40:00,026] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:40:00,026] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:40:00,757] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 02:40:00,762] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:41:23,216] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:41:23,396] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:41:23,401] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:41:23,618] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:41:23,755] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:41:23,755] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:41:24,464] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 02:41:24,467] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 02:41:24,467] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:44:10,921] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:44:11,129] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:44:11,134] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:44:11,375] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:44:11,531] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:44:11,532] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:44:12,299] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 02:44:12,304] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:49:50,087] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:49:50,268] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:49:50,273] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:49:50,493] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:49:50,669] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:49:50,670] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:49:51,406] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 02:49:51,410] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:51:25,710] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:51:25,878] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:51:25,882] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:51:26,086] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:51:26,215] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:51:26,215] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:51:26,894] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 02:51:26,898] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:55:55,325] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:55:55,502] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:55:55,507] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:55:55,726] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:55:55,870] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:55:55,871] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:55:56,559] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 02:55:56,563] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 02:58:46,980] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 02:58:47,162] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 02:58:47,168] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 02:58:47,391] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 02:58:47,537] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 02:58:47,538] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 02:58:48,290] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 02:58:48,296] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 03:35:55,493] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 03:35:55,679] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 03:35:55,684] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 03:35:55,906] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 03:35:56,054] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 03:35:56,055] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 03:35:56,764] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 03:35:56,769] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 03:54:08,412] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 03:54:08,579] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 03:54:08,583] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 03:54:08,791] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 03:54:08,924] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 03:54:08,925] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 03:54:09,581] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 03:54:09,584] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 03:54:09,585] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 04:09:44,194] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 04:09:44,414] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 04:09:44,419] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 04:09:44,664] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 04:09:44,813] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 04:09:44,813] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 04:09:45,558] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 04:09:45,561] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 04:12:15,657] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 04:12:15,834] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 04:12:15,839] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 04:12:16,064] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 04:12:16,205] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 04:12:16,206] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 04:12:16,988] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 04:12:16,992] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 04:12:50,128] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 04:12:50,307] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 04:12:50,312] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 04:12:50,557] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 04:12:50,699] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 04:12:50,699] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 04:12:51,390] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 04:12:51,394] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 04:13:40,651] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 04:13:40,835] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 04:13:40,839] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 04:13:41,060] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 04:13:41,203] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 04:13:41,203] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 04:13:41,943] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 04:13:41,947] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 04:14:33,200] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 04:14:33,396] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 04:14:33,402] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 04:14:33,632] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 04:14:33,785] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 04:14:33,787] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 04:14:34,480] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 04:14:34,483] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 04:14:34,483] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 04:15:41,669] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 04:15:41,878] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 04:15:41,884] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 04:15:42,122] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 04:15:42,274] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 04:15:42,275] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 04:15:43,065] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 04:15:43,069] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 04:17:47,001] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 04:17:47,187] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 04:17:47,191] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 04:17:47,417] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 04:17:47,580] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 04:17:47,581] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 04:17:48,338] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 04:17:48,343] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 04:18:29,670] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 04:18:29,967] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 04:18:29,974] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 04:18:30,256] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 04:18:30,413] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 04:18:30,414] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 04:18:31,148] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 04:18:31,152] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 04:19:27,077] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 04:19:27,263] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 04:19:27,267] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 04:19:27,496] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 04:19:27,650] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 04:19:27,650] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 04:19:28,385] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 04:19:28,388] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 04:23:48,336] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 04:23:48,508] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 04:23:48,512] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 04:23:48,716] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 04:23:48,845] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 04:23:48,845] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 04:23:49,584] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 04:23:49,587] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 04:24:15,501] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 04:24:15,691] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 04:24:15,696] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 04:24:15,916] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 04:24:16,059] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 04:24:16,059] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 04:24:16,786] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 04:24:16,790] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 04:31:45,943] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 04:31:46,150] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 04:31:46,155] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 04:31:46,376] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 04:31:46,557] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+
+INFO  [2014-04-25 04:31:46,558] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 04:31:47,351] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 04:31:47,355] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 05:08:12,202] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 05:08:12,471] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 05:08:12,477] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 05:08:12,707] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 05:08:12,868] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+
+INFO  [2014-04-25 05:08:12,869] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 05:08:13,716] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 05:08:13,720] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 05:09:41,084] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 05:09:41,301] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 05:09:41,306] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 05:09:41,572] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 05:09:41,758] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+
+INFO  [2014-04-25 05:09:41,759] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 05:09:42,527] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 05:09:42,531] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 05:09:42,531] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 05:11:00,262] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 05:11:00,446] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 05:11:00,451] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 05:11:00,662] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 05:11:00,811] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+
+INFO  [2014-04-25 05:11:00,812] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 05:11:01,507] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 05:11:01,510] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 05:11:01,510] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 05:11:48,308] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 05:11:48,486] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 05:11:48,491] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 05:11:48,708] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 05:11:48,846] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+
+INFO  [2014-04-25 05:11:48,846] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 05:11:49,574] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 05:11:49,577] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 05:12:25,003] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 05:12:25,190] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 05:12:25,195] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 05:12:25,412] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 05:12:25,560] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+
+INFO  [2014-04-25 05:12:25,561] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 05:12:26,250] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 05:12:26,253] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 05:12:26,253] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 05:14:33,481] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 05:14:33,691] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 05:14:33,695] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 05:14:33,936] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 05:14:34,101] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+
+INFO  [2014-04-25 05:14:34,101] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 05:14:34,884] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 05:14:34,889] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 05:14:34,890] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 05:15:07,109] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 05:15:07,299] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 05:15:07,304] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 05:15:07,531] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 05:15:07,676] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+
+INFO  [2014-04-25 05:15:07,677] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 05:15:08,537] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 05:15:08,540] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 05:16:44,077] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 05:16:44,369] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 05:16:44,375] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 05:16:44,636] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 05:16:44,810] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+
+INFO  [2014-04-25 05:16:44,815] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 05:16:45,583] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 05:16:45,587] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 05:17:46,479] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 05:17:46,685] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 05:17:46,691] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 05:17:46,922] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 05:17:47,076] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+
+INFO  [2014-04-25 05:17:47,076] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 05:17:47,895] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 05:17:47,898] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 05:18:26,344] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 05:18:26,554] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 05:18:26,570] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 05:18:26,843] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 05:18:27,015] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+
+INFO  [2014-04-25 05:18:27,016] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 05:18:27,740] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2014-04-25 05:18:27,744] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2014-04-25 05:18:27,744] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-25 06:36:37,604] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-25 06:36:37,871] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-25 06:36:37,880] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-25 06:36:38,261] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-25 06:36:38,470] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+
+INFO  [2014-04-25 06:36:38,470] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-25 06:36:39,269] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-25 06:36:39,273] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
