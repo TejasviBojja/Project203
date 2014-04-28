@@ -31,8 +31,8 @@ public class SignupResource {
 	
 	public Response verifySignup(@FormParam("Email") String Username, @FormParam("Password") String Password) throws URISyntaxException
 	{
-		URI uri =new URI("http://localhost:8080/MyTacks/signup");
-		
-		return null;
+		URI uri =new URI("http://localhost:8080/MyTacks/LandingPage");
+		return Response.seeOther(uri).build();
+		//return null;
 }
 }

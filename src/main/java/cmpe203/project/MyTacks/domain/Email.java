@@ -37,7 +37,7 @@ public class Email {
 		});
 		session.setDebug(true);
 		
-		String msgBody="Dear "+ firstname +",\n\n Welcome to MyTacks !!! \n Thank you for joining MyTacks..Click the below link to activate your account:\n http://localhost:8080/MyTacks/activate?activationlink="+firstname+"\n\n Happy Pinning !! ]";
+		String msgBody="Dear "+ firstname +", Welcome to MyTacks !!! Enjoy :) :D ;)";
 		try
 		{
 			
@@ -58,4 +58,46 @@ public class Email {
 		}
 	}
 
+	public void sendEmail(String email){
+		Security.addProvider(new com.sun.net.ssl.internal.ssl.Provider());
+		final String SSL_FACTORY="javax.net.ssl.SSLSocketFactory";
+		
+		Properties props=System.getProperties();
+		props.setProperty("mail.smtps.host", "smtp.gmail.com");
+		props.setProperty("mail.smtp.socketFactory.class", SSL_FACTORY);
+		props.setProperty("mail.smtp.socketFactory.fallback", "false");
+		props.setProperty("mail.smtp.port","465");
+		props.setProperty("mail.smtp.socketFactory.port", "465");
+		props.setProperty("mail.smtp.auth", "true");
+		props.setProperty("mail.debug", "false");
+		props.setProperty("mail.smtps.quitwait", "false");
+		
+		Session session=Session.getInstance(props,new javax.mail.Authenticator(){
+			protected PasswordAuthentication getPasswordAuthentication(){
+				return new PasswordAuthentication("clipincmpe203","203cmpeclipin");
+			}
+		});
+		session.setDebug(true);
+		
+		String msgBody="Hi! I am a user of MyTacks...\nI would like to invite you to join MyTacks..\nExplore it!! Collect, pin and share your fascination!! :D /nTo accept my invitation..please join MyTacks at http://localhost:8080/MyTacks/home";
+		
+		try
+		{
+			
+			String recipient=email;
+			final MimeMessage msg=new MimeMessage(session);
+			msg.setFrom(new InternetAddress("clipincmpe203@gmail.com"));
+			msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipient,false));
+			msg.setSubject("Invitation to join MyTacks ");
+			msg.setText(msgBody);
+			SMTPTransport t=(SMTPTransport)session.getTransport("smtp");
+			t.connect("smtp.gmail.com","clipincmpe203" ,"203cmpeclipin");
+			t.sendMessage(msg, msg.getAllRecipients());
+			t.close();
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
 }

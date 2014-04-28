@@ -8,6 +8,5 @@ public class HomeView extends View {
 		super("/home.ftl");
 	}
 	
-	
 
 }

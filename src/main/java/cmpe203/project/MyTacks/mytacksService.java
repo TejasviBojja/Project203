@@ -1,11 +1,14 @@
 package cmpe203.project.MyTacks;
 
-import cmpe203.project.MyTacks.api.resources.ActivateResource;
+import cmpe203.project.MyTacks.api.resources.EditProfileResource;
+import cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource;
 import cmpe203.project.MyTacks.api.resources.HomeResource;
+import cmpe203.project.MyTacks.api.resources.InviteFriendResource;
+import cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource;
+import cmpe203.project.MyTacks.api.resources.LandingPageResource;
 import cmpe203.project.MyTacks.api.resources.RegisterResource;
 import cmpe203.project.MyTacks.api.resources.ResetPasswordResource;
 import cmpe203.project.MyTacks.api.resources.SignupResource;
-import cmpe203.project.MyTacks.api.resources.VerifyEmailResource;
 import cmpe203.project.MyTacks.config.mytacksServiceConfiguration;
 import cmpe203.project.MyTacks.views.RegisterView;
 
@@ -35,8 +38,11 @@ public class mytacksService extends Service<mytacksServiceConfiguration> {
 	environment.addResource(RegisterResource.class);
 	environment.addResource(HomeResource.class);
 	environment.addResource(ResetPasswordResource.class);
-	environment.addResource(ActivateResource.class);
-	environment.addResource(VerifyEmailResource.class);
+	environment.addResource(LandingPageResource.class);
+	environment.addResource(InviteFriendResource.class);
+	environment.addResource(InviteFriendSuccessResource.class);
+	environment.addResource(EditProfileResource.class);
+	environment.addResource(EditProfileSuccessResource.class);
 	}
 
 }
