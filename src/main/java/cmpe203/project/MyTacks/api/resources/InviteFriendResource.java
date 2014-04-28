@@ -32,7 +32,7 @@ import cmpe203.project.MyTacks.views.InviteFriendView;
 		{
 			URI uri =new URI("http://localhost:8080/MyTacks/InviteFriendSuccess");
 			Email e=new Email();
-			e.sendEmail(email);
+			e.sendEmail(2,email,"");
 			return Response.seeOther(uri).build();
 		}
 	
