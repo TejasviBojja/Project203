@@ -43,6 +43,7 @@ public class mytacksService extends Service<mytacksServiceConfiguration> {
 	environment.addResource(InviteFriendSuccessResource.class);
 	environment.addResource(EditProfileResource.class);
 	environment.addResource(EditProfileSuccessResource.class);
+	environment.addResource(CreateBoardResource.class);
 	}
 
 }
