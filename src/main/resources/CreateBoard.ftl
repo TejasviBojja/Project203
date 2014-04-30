@@ -12,7 +12,7 @@
 <% String[] Categories = (String[])request.getAttribute("Categories"); %>
 <% if (Categories!=null && Categories.length>0){ %>
 <% for (String categories : Categories) { %>
-	<Option value="<%= categories%>"><%= categories%></Option>
+	
 <% };
 
 }
