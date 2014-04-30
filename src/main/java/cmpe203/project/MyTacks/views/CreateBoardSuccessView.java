@@ -4,7 +4,7 @@ public class CreateBoardSuccessView {
 	
 	
 
-	public class CreateBoardView {
+	public class CreateBoardView extends View{
 		public CreateBoardView(){
 			super("/CreateBoardSuccess.ftl");
 		}

@@ -9,8 +9,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
 
+
 //import cmpe203.project.MyTacks.domain.Email;
-import cmpe203.project.MyTacks.views.CreatBoardView;
+
+import cmpe203.project.MyTacks.views.CreateBoardView;
 
 @Path("/CreateBoard")
 public class CreateBoardResource {

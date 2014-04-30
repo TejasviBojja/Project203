@@ -1,5 +1,6 @@
 package cmpe203.project.MyTacks;
 
+import cmpe203.project.MyTacks.api.resources.CreateBoardResource;
 import cmpe203.project.MyTacks.api.resources.EditProfileResource;
 import cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource;
 import cmpe203.project.MyTacks.api.resources.HomeResource;
