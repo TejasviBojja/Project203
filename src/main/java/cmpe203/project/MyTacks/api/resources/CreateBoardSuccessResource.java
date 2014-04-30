@@ -13,7 +13,7 @@ import javax.ws.rs.core.Response;
 //import cmpe203.project.MyTacks.domain.Email;
 import cmpe203.project.MyTacks.views.CreateBoardSuccessView;
 
-public class CreateBoardSuccess {
+public class CreateBoardSuccessResource {
 
 	@Path("/CreateBoardSuccess")
 	public class CreateBoardResource {

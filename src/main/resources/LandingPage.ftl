@@ -85,7 +85,7 @@ input[type="submit"] {
 					<li><a href="http://localhost:8080/MyTacks/EditProfile"><b>EDIT PROFILE</b></a></li>
 					<li><a href="products.html#chair"><b>SETTINGS</b></a></li>
 					<li><a href="products.html#chair"><b>UPLOAD A PIN</b></a></li>
-					<li><a href="products.html#chair"><b>CREATE&nbspBOARD</b></a></li>
+					<li><a href="http://localhost:8080/MyTacks/CreateBoard"><b>CREATE&nbspBOARD</b></a></li>
 					<li><a href="http://localhost:8080/MyTacks/InviteFriend"><b>FIND FRIENDS</b></a></li>
 					<li><a href="http://localhost:8080/MyTacks/home"><b>LOGOUT</b></a></li>
 				</ul>
