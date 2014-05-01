@@ -1,4 +1,4 @@
-WARN  [2014-04-28 04:31:57,685] com.yammer.dropwizard.config.ServerFactory: 
+WARN  [2014-04-30 19:39:09,494] com.yammer.dropwizard.config.ServerFactory: 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
@@ -8,10 +8,10 @@ WARN  [2014-04-28 04:31:57,685] com.yammer.dropwizard.config.ServerFactory:
 !      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2014-04-28 04:31:57,878] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
-INFO  [2014-04-28 04:31:57,882] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
-INFO  [2014-04-28 04:31:58,099] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2014-04-28 04:31:58,253] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+INFO  [2014-04-30 19:39:09,589] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 19:39:09,592] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 19:39:09,728] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 19:39:09,828] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
 
     GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
     POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
@@ -27,9 +27,640 @@ INFO  [2014-04-28 04:31:58,253] com.yammer.dropwizard.config.Environment: The fo
     POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
     GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
 
-INFO  [2014-04-28 04:31:58,254] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2014-04-30 19:39:09,829] com.yammer.dropwizard.config.Environment: tasks = 
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
-INFO  [2014-04-28 04:31:58,932] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2014-04-28 04:31:58,935] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2014-04-30 19:39:10,259] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 19:39:10,262] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 19:49:39,855] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 19:49:39,952] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 19:49:39,955] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 19:49:40,102] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 19:49:40,214] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 19:49:40,215] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 19:49:40,831] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 19:49:40,836] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 19:51:02,695] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 19:51:02,786] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 19:51:02,789] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 19:51:02,947] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 19:51:03,045] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 19:51:03,045] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 19:51:03,550] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 19:51:03,556] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 19:54:04,118] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 19:54:04,218] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 19:54:04,220] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 19:54:04,390] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 19:54:04,510] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    POST    /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 19:54:04,511] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 19:54:05,070] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 19:54:05,075] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 19:56:18,424] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 19:56:18,527] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 19:56:18,530] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 19:56:18,687] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 19:56:18,796] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    POST    /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 19:56:18,796] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 19:56:19,272] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 19:56:19,277] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 19:58:30,936] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 19:58:31,058] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 19:58:31,061] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 19:58:31,249] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 19:58:31,359] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    POST    /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 19:58:31,359] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 19:58:31,957] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 19:58:31,961] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 20:00:01,673] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 20:00:01,796] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 20:00:01,798] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 20:00:01,953] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 20:00:02,073] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    POST    /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 20:00:02,073] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 20:00:02,580] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 20:00:02,585] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 20:03:24,288] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 20:03:24,397] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 20:03:24,400] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 20:03:24,565] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 20:03:24,666] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    POST    /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 20:03:24,666] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 20:03:25,189] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 20:03:25,194] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 20:09:35,115] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 20:09:35,239] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 20:09:35,243] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 20:09:35,443] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 20:09:35,558] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    POST    /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 20:09:35,559] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 20:09:36,125] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 20:09:36,131] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 20:23:46,976] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 20:23:47,080] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 20:23:47,083] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 20:23:47,258] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 20:23:47,348] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 20:23:47,348] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+WARN  [2014-04-30 20:23:47,852] org.eclipse.jetty.util.component.AbstractLifeCycle: FAILED InstrumentedBlockingChannelConnector@0.0.0.0:8080: java.net.BindException: Address already in use: bind
+! java.net.BindException: Address already in use: bind
+! at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_05]
+! at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_05]
+! at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_05]
+! at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_05]
+! at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_05]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector.open(BlockingChannelConnector.java:127) ~[jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at org.eclipse.jetty.server.nio.BlockingChannelConnector.doStart(BlockingChannelConnector.java:85) ~[jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at org.eclipse.jetty.server.Server.doStart(Server.java:291) [jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:48) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.cli.EnvironmentCommand.run(EnvironmentCommand.java:39) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:58) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.cli.Cli.run(Cli.java:53) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.Service.run(Service.java:61) [dropwizard-core-0.6.2.jar:na]
+! at cmpe203.project.MyTacks.mytacksService.main(mytacksService.java:24) [classes/:na]
+WARN  [2014-04-30 20:23:47,854] org.eclipse.jetty.util.component.AbstractLifeCycle: FAILED SocketConnector@0.0.0.0:8081: java.net.BindException: Address already in use: JVM_Bind
+! java.net.BindException: Address already in use: JVM_Bind
+! at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[na:1.8.0_05]
+! at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source) ~[na:1.8.0_05]
+! at java.net.AbstractPlainSocketImpl.bind(Unknown Source) ~[na:1.8.0_05]
+! at java.net.PlainSocketImpl.bind(Unknown Source) ~[na:1.8.0_05]
+! at java.net.ServerSocket.bind(Unknown Source) ~[na:1.8.0_05]
+! at java.net.ServerSocket.<init>(Unknown Source) ~[na:1.8.0_05]
+! at java.net.ServerSocket.<init>(Unknown Source) ~[na:1.8.0_05]
+! at org.eclipse.jetty.server.bio.SocketConnector.newServerSocket(SocketConnector.java:96) ~[jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at org.eclipse.jetty.server.bio.SocketConnector.open(SocketConnector.java:85) ~[jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at org.eclipse.jetty.server.bio.SocketConnector.doStart(SocketConnector.java:156) ~[jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at org.eclipse.jetty.server.Server.doStart(Server.java:291) [jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:48) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.cli.EnvironmentCommand.run(EnvironmentCommand.java:39) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:58) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.cli.Cli.run(Cli.java:53) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.Service.run(Service.java:61) [dropwizard-core-0.6.2.jar:na]
+! at cmpe203.project.MyTacks.mytacksService.main(mytacksService.java:24) [classes/:na]
+WARN  [2014-04-30 20:23:47,855] org.eclipse.jetty.util.component.AbstractLifeCycle: FAILED org.eclipse.jetty.server.Server@7bc10d84: MultiException[java.net.BindException: Address already in use: bind, java.net.BindException: Address already in use: JVM_Bind]
+! org.eclipse.jetty.util.MultiException: Multiple exceptions
+! at org.eclipse.jetty.server.Server.doStart(Server.java:273) ~[jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:48) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.cli.EnvironmentCommand.run(EnvironmentCommand.java:39) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:58) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.cli.Cli.run(Cli.java:53) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.Service.run(Service.java:61) [dropwizard-core-0.6.2.jar:na]
+! at cmpe203.project.MyTacks.mytacksService.main(mytacksService.java:24) [classes/:na]
+ERROR [2014-04-30 20:23:47,855] com.yammer.dropwizard.cli.ServerCommand: Unable to start server, shutting down
+! org.eclipse.jetty.util.MultiException: Multiple exceptions
+! at org.eclipse.jetty.server.Server.doStart(Server.java:273) ~[jetty-server-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.10.v20130312.jar:8.1.10.v20130312]
+! at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:48) ~[dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.cli.EnvironmentCommand.run(EnvironmentCommand.java:39) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:58) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.cli.Cli.run(Cli.java:53) [dropwizard-core-0.6.2.jar:na]
+! at com.yammer.dropwizard.Service.run(Service.java:61) [dropwizard-core-0.6.2.jar:na]
+! at cmpe203.project.MyTacks.mytacksService.main(mytacksService.java:24) [classes/:na]
+INFO  [2014-04-30 20:23:47,855] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2014-04-30 20:23:47,855] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 20:23:47,856] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2014-04-30 20:23:47,856] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,file:/C:/Users/Tejasvi/Documents/GitHub/Project203/target/classes/}
+INFO  [2014-04-30 20:23:49,857] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,file:/C:/Users/Tejasvi/Documents/GitHub/Project203/target/classes/}
+INFO  [2014-04-30 20:23:49,857] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+WARN  [2014-04-30 20:24:19,510] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 20:24:19,610] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 20:24:19,613] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 20:24:19,772] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 20:24:19,863] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 20:24:19,863] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 20:24:20,377] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 20:24:20,381] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 20:27:02,921] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 20:27:03,023] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 20:27:03,025] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 20:27:03,191] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 20:27:03,283] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 20:27:03,283] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 20:27:03,747] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 20:27:03,753] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 20:30:13,943] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 20:30:14,038] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 20:30:14,041] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 20:30:14,193] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 20:30:14,308] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 20:30:14,308] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 20:30:14,798] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 20:30:14,803] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 20:37:37,491] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 20:37:37,569] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 20:37:37,571] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 20:37:37,687] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 20:37:37,763] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 20:37:37,763] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 20:37:38,149] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 20:37:38,153] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 20:39:52,920] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 20:39:52,989] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 20:39:52,991] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 20:39:53,102] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 20:39:53,188] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 20:39:53,188] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 20:39:53,518] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 20:39:53,521] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 20:42:23,758] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 20:42:23,830] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 20:42:23,832] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 20:42:23,948] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 20:42:24,029] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 20:42:24,029] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 20:42:24,355] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 20:42:24,358] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2014-04-30 20:44:34,044] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-04-30 20:44:34,113] com.yammer.dropwizard.cli.ServerCommand: Starting mytacks-service
+INFO  [2014-04-30 20:44:34,115] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2014-04-30 20:44:34,219] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-04-30 20:44:34,300] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    POST    /MyTacks/signup (cmpe203.project.MyTacks.api.resources.SignupResource)
+    GET     /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    POST    /MyTacks/register (cmpe203.project.MyTacks.api.resources.RegisterResource)
+    GET     /MyTacks/home (cmpe203.project.MyTacks.api.resources.HomeResource)
+    GET     /MyTacks/ResetPassword (cmpe203.project.MyTacks.api.resources.ResetPasswordResource)
+    GET     /MyTacks/LandingPage (cmpe203.project.MyTacks.api.resources.LandingPageResource)
+    GET     /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    POST    /MyTacks/InviteFriend (cmpe203.project.MyTacks.api.resources.InviteFriendResource)
+    GET     /MyTacks/InviteFriendSuccess (cmpe203.project.MyTacks.api.resources.InviteFriendSuccessResource)
+    GET     /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    POST    /MyTacks/EditProfile (cmpe203.project.MyTacks.api.resources.EditProfileResource)
+    GET     /MyTacks/EditProfileSuccess (cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource)
+
+INFO  [2014-04-30 20:44:34,301] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-04-30 20:44:34,630] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2014-04-30 20:44:34,634] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
