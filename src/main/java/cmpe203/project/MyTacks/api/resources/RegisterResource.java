@@ -2,6 +2,7 @@ package cmpe203.project.MyTacks.api.resources;
 
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.UnknownHostException;
 
 import javax.ws.rs.FormParam;
 import javax.ws.rs.GET;
@@ -10,7 +11,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
 import junit.runner.TestCollector;
-import cmpe203.project.MyTacks.dao.TestConnection;
+import cmpe203.project.MyTacks.dao.mongo;
 import cmpe203.project.MyTacks.domain.Email;
 import cmpe203.project.MyTacks.domain.Register;
 import cmpe203.project.MyTacks.views.RegisterView;
@@ -35,12 +36,6 @@ public Response verifySignup(@FormParam("firstname") String firstName, @FormPara
 {
 	URI uri =new URI("http://localhost:8080/MyTacks/signup");
 	Register register=new Register();
-	System.out.println("Firstname is:"+firstName);
-	System.out.println("Lastname is "+lastName);
-	System.out.println("Email is "+email);
-	System.out.println("Sex is:"+sex);
-	System.out.println("password"+password);
-	System.out.println("Confrim password is:"+cpassword);
 	register.setFirstName(firstName);
 	register.setLastName(lastName);
 	register.setEmail(email);
@@ -48,7 +43,8 @@ public Response verifySignup(@FormParam("firstname") String firstName, @FormPara
 	register.setPassword(password);
 	register.setCpassword(cpassword);
 	register.setEmail_Verified("no");
-	TestConnection test=new TestConnection();
+	mongo test = new mongo();
+	
 	test.createUser(register);
 	
 	Email e=new Email();

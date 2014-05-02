@@ -9,6 +9,7 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
+import cmpe203.project.MyTacks.domain.Email;
 import cmpe203.project.MyTacks.views.HomeView;
 import cmpe203.project.MyTacks.views.ResetPasswordView;
 
@@ -32,6 +33,8 @@ public class ResetPasswordResource {
 	public Response resetPassword(@FormParam("email") String email) throws URISyntaxException
 	{
 		URI uri=new URI("http://localhost:8080/MyTacks/home");
+		Email e=new Email();
+		e.sendEmail(3,email,"");
 		return Response.seeOther(uri).build();
 	}
 		
