@@ -22,6 +22,7 @@ public class Register {
 	@JsonProperty("cpassword")
 	private String cpassword;
 	
+<<<<<<< HEAD
 	private String email_Verified;
 	
 	
@@ -39,6 +40,10 @@ public class Register {
 	}
 
 
+=======
+	
+	
+>>>>>>> 205227e76dc5f4d26743f5e10847254fffb5ba41
 	public String getFirstName() {
 		return firstName;
 	}
@@ -98,8 +103,11 @@ public class Register {
 		this.cpassword = cpassword;
 	}
 
+<<<<<<< HEAD
 
 
 	
+=======
+>>>>>>> 205227e76dc5f4d26743f5e10847254fffb5ba41
 
 }

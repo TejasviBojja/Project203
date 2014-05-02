@@ -1,8 +1,15 @@
+<#-- @ftlvariable name="" type="cmpe203.project.MyTacks.views.InviteFriendSuccessView" -->
 <html>
 <head>
 <meta charset="utf8"/>
 <link rel="stylesheet" href"style.css" type="text/css" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+function returnHomePage()
+{
+window.location.href="home";
+}
+</script>
 </head>
 <style>
 
@@ -63,8 +70,10 @@ input[type="submit"] {
   font-size:20px;
 }
 </style>
+
+
 <body>
-<form id= "Landing Page" action=" " method="post">
+<form id= "Landing Page" action=" " >
 
 <div id="container">
 
@@ -106,11 +115,11 @@ input[type="submit"] {
 <h1 align="center" style="font-size:35px; font-family:lucida calligraphy;text-align:center;color:#400000 ; position:absolute;top:20px;left:210px;"><b><center>Invitation Sent Successfully!!</center></b></h1>
 &nbsp<img src="http://waynereaves.com/wp-content/uploads/2011/09/green_check-425x421.png"  width=20%; height=200px; border="0"; style="position:absolute; left:750px;">
 
- <button align="center" style="width:30%; height:40px;position:absolute;top:270px;left:370px;font-size:20px;border:2px solid black;font-family:lucida calligraphy;"><a href="http://localhost:8080/MyTacks/home"><b>Return to Home Page<b>
- </button>
- <br>
- <img src="http://www.veryicon.com/icon/png/System/Longhorn%20R2/Back%20Button.png"  width=10%; height=100px; border="0"; style="position:absolute; left:475px;top:325px;">
- 
+
+<input type="button" onclick="returnHomePage()" style="width:30%; height:40px;position:absolute;top:270px;left:370px;font-size:20px;border:2px solid black;font-family:lucida calligraphy;" value="Return to Home">
+<br>
+<a href="http://localhost:8080/MyTacks/home"> <img src="http://www.veryicon.com/icon/png/System/Longhorn%20R2/Back%20Button.png"  width=10%; height=100px; border="0"; style="position:absolute; left:475px;top:325px;"></a>
+
 </div>
 
 </div>

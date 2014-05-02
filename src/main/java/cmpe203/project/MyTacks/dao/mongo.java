@@ -1,4 +1,5 @@
 package cmpe203.project.MyTacks.dao;
+<<<<<<< HEAD
 
 
 import java.net.UnknownHostException;
@@ -9,6 +10,12 @@ import org.bson.BSONObject;
 
 import cmpe203.project.MyTacks.domain.Register;
 import cmpe203.project.MyTacks.domain.Signup;
+=======
+import java.net.UnknownHostException;
+import java.util.Set;
+
+import cmpe203.project.MyTacks.domain.Register;
+>>>>>>> 205227e76dc5f4d26743f5e10847254fffb5ba41
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
@@ -17,6 +24,7 @@ import com.mongodb.DBCursor;
 import com.mongodb.DBObject;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoException;
+<<<<<<< HEAD
 import com.mongodb.ServerAddress;
 
 	public class mongo {
@@ -42,18 +50,45 @@ import com.mongodb.ServerAddress;
 			{
 			//	System.out.println("this is the count: "+collection.getCount());
 				object.append("firstname",register.getFirstName());
+=======
+
+	public class mongo {
+			public static DB db ;
+		public mongo() throws UnknownHostException{
+			MongoClient mongoClient = new MongoClient("localhost" , 27017);
+
+			DB db = mongoClient.getDB( "myTacks" );
+			//DBCollection da = db.getCollection("users");
+			
+			
+		}
+		
+		public void createUser(Register register)
+		{
+			DBCollection collection = db.getCollection("users"); 
+			try
+			{
+				BasicDBObject object=new BasicDBObject();
+				object.put("firstname",register.getFirstName());
+>>>>>>> 205227e76dc5f4d26743f5e10847254fffb5ba41
 				object.put("lastname",register.getLastName());
 				object.put("email", register.getEmail());
 				object.put("sex", register.getSex());
 				object.put("password", register.getPassword());
 				object.put("cpassword", register.getCpassword());
+<<<<<<< HEAD
 				object.put("verify", register.getEmail_Verified());
+=======
+				
+			
+>>>>>>> 205227e76dc5f4d26743f5e10847254fffb5ba41
 				collection.insert(object);
 			}
 			catch (MongoException.DuplicateKey e) {
 	            System.out.println("Username already in use");
 			}
 		
+<<<<<<< HEAD
 	}
 		public int verifyLogin(Signup signup)
 		{
@@ -85,3 +120,31 @@ import com.mongodb.ServerAddress;
 	}
 		
 	
+=======
+	}		
+		
+			
+			
+			//to insert a document into the mongodb Collection create a basic DB Object and append the record
+//			BasicDBObject obj1 = new BasicDBObject
+//					("firstname", "test").
+//					append("lastname","test").
+//					append("email", "email@cbds.com").
+//					append("sex","F").
+//					append("password","password");
+			//insert the object into the collection using the collection object
+//			coll.insert(obj1);
+			
+//			DBCursor cursor = coll.find();
+//			try {
+//			while (cursor.hasNext()){
+//			DBObject cur = cursor.next();
+//			System.out.println(cur.get("firstname"));
+//			}
+//			} finally {
+//			cursor.close();
+//			}
+			
+	
+	}
+>>>>>>> 205227e76dc5f4d26743f5e10847254fffb5ba41

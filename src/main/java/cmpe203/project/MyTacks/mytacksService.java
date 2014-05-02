@@ -3,6 +3,7 @@ package cmpe203.project.MyTacks;
 import cmpe203.project.MyTacks.api.resources.ActivateEmailResource;
 import cmpe203.project.MyTacks.api.resources.CreateBoardResource;
 import cmpe203.project.MyTacks.api.resources.CreateBoardSuccessResource;
+import cmpe203.project.MyTacks.api.resources.EditBoardResource;
 import cmpe203.project.MyTacks.api.resources.EditProfileResource;
 import cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource;
 import cmpe203.project.MyTacks.api.resources.HomeResource;
@@ -48,7 +49,14 @@ public class mytacksService extends Service<mytacksServiceConfiguration> {
 	environment.addResource(EditProfileSuccessResource.class);
 	environment.addResource(CreateBoardResource.class);
 	environment.addResource(CreateBoardSuccessResource.class);
+<<<<<<< HEAD
 	environment.addResource(ActivateEmailResource.class);
+=======
+	environment.addResource(EditBoardResource.class);
+	environment.addResource(EditBoardSuccessResource.class);
+
+	
+>>>>>>> 205227e76dc5f4d26743f5e10847254fffb5ba41
 	}
 
 }
