@@ -10,20 +10,22 @@ import javax.ws.rs.core.Response;
 
 
 
+
 //import cmpe203.project.MyTacks.domain.Email;
 import cmpe203.project.MyTacks.views.CreateBoardView;
+import cmpe203.project.MyTacks.views.EditBoardView;
 
-@Path("/CreateBoard")
-public class CreateBoardResource {
-	public CreateBoardResource()
+@Path("/EditBoardSuccess")
+public class EditBoardSucessResource {
+	public EditBoardSucessResource()
 	{
 	
 	}
 
 	@GET
-	public CreateBoardView getEditProfileSuccess()
+	public EditBoardSuccessView getEditProfileSuccess()
 	{
-		return new CreateBoardView();
+		return new EditBoardSuccessView();
 	}
 
 
