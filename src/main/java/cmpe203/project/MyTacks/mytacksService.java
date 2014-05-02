@@ -1,5 +1,8 @@
 package cmpe203.project.MyTacks;
 
+import cmpe203.project.MyTacks.api.resources.CreateBoardResource;
+import cmpe203.project.MyTacks.api.resources.CreateBoardSuccessResource;
+import cmpe203.project.MyTacks.api.resources.EditBoardResource;
 import cmpe203.project.MyTacks.api.resources.EditProfileResource;
 import cmpe203.project.MyTacks.api.resources.EditProfileSuccessResource;
 import cmpe203.project.MyTacks.api.resources.HomeResource;
@@ -43,6 +46,12 @@ public class mytacksService extends Service<mytacksServiceConfiguration> {
 	environment.addResource(InviteFriendSuccessResource.class);
 	environment.addResource(EditProfileResource.class);
 	environment.addResource(EditProfileSuccessResource.class);
+	environment.addResource(CreateBoardResource.class);
+	environment.addResource(CreateBoardSuccessResource.class);
+	environment.addResource(EditBoardResource.class);
+	environment.addResource(EditBoardSuccessResource.class);
+
+	
 	}
 
 }
